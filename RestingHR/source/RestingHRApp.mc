@@ -17,7 +17,7 @@ class RestingHRApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new RestingHRView(), new RestingHRDelegate() ];
+        return [new StartMenu(), new StartMenu_BehaviorDelegate()];
     }
 
 }
